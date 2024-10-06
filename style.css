@@ -8,25 +8,33 @@ html {
 }
 
 .atualizado-em {
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
-ul {
+.atualizado-em span {
+  color: red;
+  font-weight: bold;
+}
+
+.candidatos {
   list-style: none;
 
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 20px;
+  column-gap: 30px;
 }
 
 li {
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .candidato {
   text-align: center;
 }
+
 .candidato-nome {
   font-size: 20px;
 }
